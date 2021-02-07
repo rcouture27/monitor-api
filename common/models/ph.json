@@ -1,0 +1,21 @@
+{
+  "name": "ph",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "pH": {
+      "type": "string",
+      "required": true
+    },
+    "created": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,18 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mysqlDs": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "monitor",
+    "password": "backloop3pw",
+    "name": "mysqlDs",
+    "user": "loopback",
+    "connector": "mysql",
+    "connectTimeout": 30000,
+    "acquireTimeout": 30000
+  }
+}
