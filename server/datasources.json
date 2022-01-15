@@ -11,8 +11,6 @@
     "password": "backloop3pw",
     "name": "mysqlDs",
     "user": "loopback",
-    "connector": "mysql",
-    "connectTimeout": 30000,
-    "acquireTimeout": 30000
+    "connector": "mysql"
   }
 }
